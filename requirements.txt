@@ -1,0 +1,16 @@
+pylint
+tree-sitter
+tree-sitter-python
+tree-sitter-javascript
+datasets==3.6.0
+transformers
+vllm
+black
+tqdm
+pytest
+modelscope
+
+openai
+retry
+
+pandas

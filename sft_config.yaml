@@ -1,0 +1,21 @@
+dataset:
+  use_chat_template: false
+  prompt_key: prompt
+  response_key: response
+  max_seq_length: 4096
+  truncation_side: right
+
+training:
+  epochs: 3
+  global_batch_size: 256
+  micro_batch_size_per_gpu: 8
+  learning_rate: 3.0e-5
+
+model:
+  gradient_checkpointing: false
+  dtype: bf16
+
+distributed:
+  sequence_parallel_size: 2
+  remove_padding: true
+
