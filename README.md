@@ -127,7 +127,7 @@ If you find the work useful, please kindly cite it as follows:
 @inproceedings{AdaEdit,
   author    = {Wei Cheng and Yongchang Cao and Chen Shen and Binhua Li and Jue Chen and Yongbin Li and Wei Hu},
   title     = {To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Code Editing},
-  booktitle = {ACL},
+  booktitle = {ACL Findings},
   year      = {2026}
 }
 ```
